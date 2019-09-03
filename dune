@@ -1,0 +1,8 @@
+(executable
+ (name main)
+ (public_name diarama)
+ (modes
+  (native exe))
+ (libraries tablecloth-native lwt.unix react)
+ (preprocess
+  (pps lwt_ppx)))
